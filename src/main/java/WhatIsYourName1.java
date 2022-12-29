@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class WhatIsYourName {
+public class WhatIsYourName1 {
     public static void main (String[] args){
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Please enter your name:");
@@ -31,7 +31,10 @@ public class WhatIsYourName {
             String surname = keyboard.nextLine();
             System.out.println("It looks as if You are entering numbers. Please enter letters");
             System.out.println("Please enter your surname:");
-
         }
+        keyboard.close();
     }
 }
+
+
+
