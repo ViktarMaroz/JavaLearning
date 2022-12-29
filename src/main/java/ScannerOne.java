@@ -4,9 +4,17 @@ public class ScannerOne {
     public static void main (String[] args){
 
         Scanner enter = new Scanner("Once, upon a time...\n" + "Far, far away...\n");
+
+        /*
         String one = enter.nextLine();
         System.out.println(one);
         one = enter.nextLine();
-        System.out.println(one + "\n" + "********************");
+        System.out.println(one);
+        */
+
+
+        //variant 2
+        System.out.println(enter.nextLine());
+        System.out.println(enter.nextLine());
     }
 }
