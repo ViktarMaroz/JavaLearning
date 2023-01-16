@@ -1,10 +1,10 @@
-package OOP1;
+package oop1;
 
 public class Animals {
     //class constructor
     //in first, create the class' attributes
-    int tile, legs;
-    String name;
+    protected int tile, legs;
+    protected String name;
     //then create a class constructor itself (name=class name)
     public Animals() {
         tile = 11;

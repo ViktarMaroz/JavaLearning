@@ -1,4 +1,4 @@
-package OOP1;
+package oop1;
 
 public class Example {
     static int x;

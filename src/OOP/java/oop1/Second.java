@@ -1,6 +1,7 @@
-package OOP1;
+package oop1;
 
 public class Second extends Example {
+
     public static void main(String[] args){
         Example example = new Example();
 
