@@ -1,10 +1,16 @@
 package oop1;
 
 public class Pig extends Animals{
+    public Pig(){
+        super(false);
+    }
     public void character() {
-        String name = "OOP1.Pig";
-        int tile = 5;
-        int legs = 4;
-        System.out.println("Hi, I'm a " + name + "!" + " I have a tile which has loneliness of "+tile+ " cm! I have " + legs + " legs.");
+        Animals pig = new Animals(false);
+
+        pig.name = "Pig";
+        pig.tile = 5;
+        pig.like = "to eat everethibng I can find";
+
+        System.out.println("Hi, I'm a " + pig.name + "!" +" I like "+ pig.like+"!"+ pig.lazyText + pig.tile+ " cm! I have " + pig.legs+ " legs.");
     }
 }

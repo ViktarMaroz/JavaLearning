@@ -1,15 +1,19 @@
 package oop1;
 
 public class Bull extends Animals{
+    public Bull(boolean horns){
+        super(true);
+        this.name=name;
+        this.tile=tile;
+        this.like="like";
+    }
+
     public void character() {
-        String name = "OOP1.Bull";
-        int tile = 12;
-        int legs = 4;
-        boolean horns = true;
-        String horns_answer = null;
-        if (horns == true) horns_answer = "fortunately have";
-        else horns_answer = "unfortunately have";
-        System.out.println("Hi, I'm a " + name + "!" + " I have a tile which has loneliness of "+tile+ " cm! I have " + legs + " legs."
-        + "\n And I " + horns_answer + " my perfect strong HORNS!" ) ;
+        Animals bull = new Animals(true);
+        bull.name = "Bull";
+        bull.tile = 12;
+        bull.like = "fresh greenny grossy";
+        System.out.println("Hi, I'm a " + bull.name + "!" +" I like "+bull.like+"!"+ bull.lazyText +bull.tile+ " cm! I have " + bull.legs+ " legs." + bull.horns_answer);
+
     }
 }

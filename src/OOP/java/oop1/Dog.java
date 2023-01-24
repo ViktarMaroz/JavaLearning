@@ -1,11 +1,21 @@
 package oop1;
 
 public class Dog extends Animals{
-    public void character() {
-        String name = "OOP1.Dog";
-        int tile = 33;
-        int legs = 5;
-        System.out.println("Hi, I'm a " + name + "!" + " I have a tile which has loneliness of "+tile+ " cm! I have " + legs + " legs.");
+    public Dog(){
+        super(false);
     }
 
+    public void character() {
+        Animals dog = new Animals(false);
+        dog.name = "Dog";
+        dog.tile = 33;
+        dog.legs = 5;
+        dog.like = "sweetty bonesies";
+
+        System.out.print("Hi, I'm a %s! I like %s!%s%d cm! I have %d legs.".formatted(dog.name, dog.like, dog.lazyText, dog.tile, dog.legs));
+        Cat cat = new Cat(2);
+        cat.printEarsMethod();
+
+
+    }
 }
