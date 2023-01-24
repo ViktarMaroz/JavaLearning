@@ -22,7 +22,7 @@ public class Example {
     }
     public void printCreds(){
         Example objFour = new Example();
-        objFour.x=25;
+        objFour.x=26;
         System.out.println("Hi! My name is " + objFour.name.toUpperCase() + ". And my surname is " + objFour.surn.toUpperCase()
                 + ". I have " + objFour.x + " years.");
     }

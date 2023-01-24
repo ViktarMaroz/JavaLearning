@@ -1,4 +1,4 @@
-package oop1;
+package oop1.barnyard;
 
 public class AnimlsTogether{
 
@@ -11,7 +11,7 @@ public class AnimlsTogether{
     cat.printEarsMethod();
     Dog dog = new Dog();
     dog.character();
-    Bull bull = new Bull(true);
+    Bull bull = new Bull();
     bull.character();
     Pig pig = new Pig();
     pig.character();

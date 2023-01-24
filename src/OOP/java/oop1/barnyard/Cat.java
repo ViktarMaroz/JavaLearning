@@ -1,12 +1,10 @@
-package oop1;
-
-import java.sql.SQLOutput;
+package oop1.barnyard;
 
 public class Cat extends Animals{
     private int ears;
 
     public Cat (int ears){
-        super(true);
+        super(false);
         this.ears=ears;}
 
     public void printEarsMethod (){
@@ -14,10 +12,11 @@ public class Cat extends Animals{
         System.out.println(" And I also have " + cat.ears + " ears!");
     }
     public void character(){
-        Animals cat = new Animals(true);
+        Animals cat = new Animals(false);
         cat.tile = 22;
         cat.name = "Cat";
-        System.out.print("Hi, I'm a " + cat.name + "!" + " I have a tile which has length of "+cat.tile+ " cm! I have " + cat.legs+ " legs.");
+        cat.like = "milk!";
+        System.out.print("Hi, I'm a " + cat.name + "!" +" I like "+cat.like + " I have a tile which has length of "+cat.tile+ " cm! I have " + cat.legs+ " legs.");
     }
 
 }

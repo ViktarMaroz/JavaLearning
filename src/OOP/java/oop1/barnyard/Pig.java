@@ -1,4 +1,4 @@
-package oop1;
+package oop1.barnyard;
 
 public class Pig extends Animals{
     public Pig(){

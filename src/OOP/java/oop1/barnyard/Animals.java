@@ -1,6 +1,4 @@
-package oop1;
-
-import java.io.PrintStream;
+package oop1.barnyard;
 
 public class Animals {
     //class constructor
@@ -17,9 +15,9 @@ public class Animals {
         tile = 11;
         legs = 4;
         name = "animal";
-        like = "milk";
+        like = "some food";
         lazyText = " I have a tile which has length of ";
-        this.horns = true;
+        this.horns = horns;
         this.horns_answer = "\nAnd I fortunately have my perfect strong HORNS!";
     }
     public void description(){

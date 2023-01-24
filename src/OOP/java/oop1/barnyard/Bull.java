@@ -1,11 +1,11 @@
-package oop1;
+package oop1.barnyard;
 
 public class Bull extends Animals{
-    public Bull(boolean horns){
+    public Bull(){
         super(true);
         this.name=name;
         this.tile=tile;
-        this.like="like";
+        this.like=like;
     }
 
     public void character() {
@@ -13,7 +13,8 @@ public class Bull extends Animals{
         bull.name = "Bull";
         bull.tile = 12;
         bull.like = "fresh greenny grossy";
-        System.out.println("Hi, I'm a " + bull.name + "!" +" I like "+bull.like+"!"+ bull.lazyText +bull.tile+ " cm! I have " + bull.legs+ " legs." + bull.horns_answer);
+
+        System.out.println("Hi, I'm a " + bull.name + "!" +" I like "+bull.like+"!"+ bull.lazyText +bull.tile+ " cm! I have " + bull.legs+ " legs." + bull.horns_answer );
 
     }
 }
