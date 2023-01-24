@@ -5,6 +5,13 @@ public class Encaps {
     private int age;
     private boolean bool;
 
+    public Encaps(){
+        this.name="Nobody";
+        this.age = 1000;
+        this.bool= true;
+
+    }
+
     public String getName(){return name;}
     public void setName(String newName){this.name=newName;}
 
@@ -18,12 +25,12 @@ public class Encaps {
     public void setBool(boolean newBool){this.bool=newBool;}
 
     public void printAge(){
-        Encaps encaps1 = new Encaps();
-        encaps1.setName("John");
-        encaps1.setAge(20);
-        encaps1.setBool(true);
-        System.out.println("Hi! My name's " + encaps1.getName()
-                + " and I am "+encaps1.getAge()+ " years old.");
+        Encaps encaps = new Encaps();
+        encaps.setName("John");
+        encaps.setAge(20);
+        encaps.setBool(true);
+        System.out.println("Hi! My name's " + encaps.getName()
+                + " and I am "+encaps.getAge()+ " years old.");
 
     }
 }
